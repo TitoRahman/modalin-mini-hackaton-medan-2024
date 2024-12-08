@@ -9,6 +9,7 @@ import Browse from "./pages/Browse.jsx";
 import Login from "./auth/Login.jsx";
 import Home from "./pages/Home.jsx";
 import Otp from "./auth/Otp.jsx";
+import CompanyDetail from "./pages/CompanyDetail.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -21,6 +22,7 @@ createRoot(document.getElementById("root")).render(
             <Route path="/" element={<Home />} />
             <Route path="portofolio" element={<Portofolio />} />
             <Route path="browse" element={<Browse />} />
+            <Route path="company/:id" element={<CompanyDetail />} />
           </Route>
           <Route path="*" element={<div>404 Not Found</div>} />
         </Routes>

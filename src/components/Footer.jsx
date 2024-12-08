@@ -6,7 +6,7 @@ export default function Footer() {
   const iconSize = 40;
 
   return (
-    <footer className="bg-black text-white flex flex-col items-center justify-center p-6">
+    <footer className="bg-black text-white flex flex-col items-center justify-center p-6 mt-[10vh]">
       <div className="text-center mb-4">
         <p>&copy; Modalin - Hackaton Mini 2024 Project</p>
         <p>By Tito Ardimam Rahman & Dinda Ayu Ningtyas</p>
